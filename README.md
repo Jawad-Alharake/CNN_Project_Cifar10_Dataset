@@ -13,13 +13,14 @@ The primary objective is to analyze the trade-offs between computational cost, t
 ├── dataset.py                   # Data ingestion, augmentation, and 128x128 DataLoader pipeline
 ├── models.py                    # PyTorch architecture blueprints (Custom CNN & MobileNetV2)
 ├── train.py                     # Main execution engine, training loops, and evaluation metrics
+├── presentation_CNN_Cifar10.pdf # Project presentation in pdf format
+├── README.md                    # Project documentation
 ├── data/                        # Directory automatically created to store the raw CIFAR-10 dataset
 ├── dataset_samples.png          # Generated visualization of augmented training data
 ├── custom_cnn_from_scratch_history.png          # Generated loss/accuracy curves for Custom CNN
 ├── custom_cnn_from_scratch_confusion_matrix.png # Generated heatmap of Custom CNN predictions
 ├── transfer_learning_mobilenetv2_history.png    # Generated loss/accuracy curves for MobileNetV2
-├── transfer_learning_mobilenetv2_confusion_matrix.png # Generated heatmap of MobileNetV2 predictions
-└── README.md                    # Project documentation
+└── transfer_learning_mobilenetv2_confusion_matrix.png # Generated heatmap of MobileNetV2 predictions
 
 ```
 
